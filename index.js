@@ -5,12 +5,12 @@ let homeScore = 0
 let awayScore = 0
 
 
-function homeadd(increment) {
+function homeAddScore(increment) {
     homeScore += increment
     home.textContent = homeScore
 }
 
-function awayadd(increment) {
+function awayAddScore(increment) {
     awayScore += increment
     away.textContent = awayScore
 }
